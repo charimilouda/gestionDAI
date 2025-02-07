@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox prefHeight="49.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChefFiliere.PFE.PFEContainerController">
+   <children>
+      <Label fx:id="id_grp" alignment="CENTER" prefHeight="49.0" prefWidth="74.0" text="1">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label fx:id="encadrant" prefHeight="49.0" prefWidth="178.0" text="ZROURI">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Text fx:id="sujet" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" translateY="15.0">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</HBox>

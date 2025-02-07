@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox prefHeight="54.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChefFiliere.PFE.GroupeEtudViewController">
+   <children>
+      <Label fx:id="id_grp" alignment="CENTER" prefHeight="54.0" prefWidth="78.0" text="1">
+         <HBox.margin>
+            <Insets right="10.0" />
+         </HBox.margin>
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <ScrollPane prefHeight="54.0" prefWidth="394.0" style="-fx-background: white; -fx-border-color: white;">
+         <content>
+            <Text fx:id="grp_etud" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" translateY="10.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Text>
+         </content>
+      </ScrollPane>
+   </children>
+</HBox>

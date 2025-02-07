@@ -1,0 +1,17 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#description
+{
+    -fx-font-family:"Berlin Sans FB";
+    -fx-fill:#00000087;
+    -fx-font-size:12px;
+    -fx-translate-x:10;
+    -fx-translate-y:10;
+    
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anpn" prefHeight="608.0" prefWidth="368.4" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="608.0" prefWidth="368.4" text="Boite vide" textFill="#004affdb">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+/*Les boutons bleu*/
+
+.btn_enregistrer
+{
+    -fx-background-color:  #1f7ed7;
+    -fx-text-fill:white;
+    
+}
+
+.btn_enregistrer:hover
+{
+    -fx-background-color:#2696ff;
+    -fx-text-fill:white;
+}
+
+.btn_enregistrer:pressed
+{
+    -fx-background-color:white;
+    -fx-text-fill: #1f7ed7;
+    -fx-border-color:  #1f7ed7;
+    -fx-border-radius: 5;
+    
+}
+
+
+.btn_annuler
+{
+    -fx-background-color:  white;
+    -fx-text-fill:#1f7ed7;
+    -fx-border-color:#1f7ed7;
+    
+}
+
+.btn_annuler:pressed
+{
+    -fx-background-color:#1f7ed7;
+    -fx-text-fill: white;
+    -fx-border-color:  #1f7ed7;
+    -fx-border-radius: 5;
+    
+}
+.txtfield{
+    -fx-border-color: #c0d5da;
+    -fx-background-color:transparent;
+    
+}
+.txtfield:focused {
+     -fx-border-color:#1f7ed7;
+     -fx-background-color:transparent;
+
+}

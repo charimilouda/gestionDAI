@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1066.4" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <stylesheets>
+      <URL value="@messagerie.css" />
+   </stylesheets>
+   <children>
+      <VBox layoutX="848.0" layoutY="14.0" prefHeight="700.0" prefWidth="698.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="368.0000000000001" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <BorderPane fx:id="bp" layoutX="1.0" layoutY="7.0" prefHeight="700.0" prefWidth="374.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="698.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane fx:id="anpn" prefHeight="694.0" prefWidth="368.4" style="-fx-background-color: white;">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <children>
+                  <VBox prefHeight="92.0" prefWidth="368.4">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" prefHeight="54.0" prefWidth="368.4">
+                           <children>
+                              <Button fx:id="nvMsg" mnemonicParsing="false" onAction="#nvMessage" prefHeight="36.0" prefWidth="178.0" styleClass="btn" stylesheets="@messagerie.css" text="Nouveau Message" textFill="WHITE">
+                                 <font>
+                                    <Font name="Verdana Bold" size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="refresh" mnemonicParsing="false" onAction="#refresh" prefHeight="26.0" prefWidth="24.0" style="-fx-background-color: transparent;">
+                                 <graphic>
+                                    <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../Assets/refresh-button.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="20.0" right="10.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" prefHeight="64.0" prefWidth="368.4">
+                           <children>
+                              <Label prefHeight="44.0" prefWidth="218.0" text="Boite de reception" textFill="#2e6bdd">
+                                 <font>
+                                    <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets top="6.0" />
+                                 </HBox.margin>
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </Label>
+                              <Label fx:id="nbrMsj" alignment="TOP_RIGHT" prefHeight="22.0" prefWidth="165.0" text="0 messages " textFill="#514e4e">
+                                 <font>
+                                    <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="10.0" />
+                                 </HBox.margin>
+                                 <padding>
+                                    <Insets right="5.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <BorderPane fx:id="borderpane" layoutY="92.0" prefHeight="608.0" prefWidth="368.4" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+      <BorderPane fx:id="bp2" prefHeight="200.0" prefWidth="698.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane prefHeight="710.0" prefWidth="698.0" style="-fx-background-color: f8f8fd;" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1066.4" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="164.0" layoutX="50.0" layoutY="60.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 50; -fx-arc-width: 50;" width="952.0">
+         <effect>
+            <DropShadow height="38.58" radius="13.6625" width="18.07">
+               <color>
+                  <Color opacity="0.20610687136650085" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label fx:id="nom_prenom" alignment="CENTER" layoutX="-6.0" layoutY="56.0" prefHeight="166.0" prefWidth="1072.0" text="NOM PRENOM" textFill="#2e6bdd">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="51.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="388.0" layoutX="52.0" layoutY="260.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 50; -fx-arc-width: 50;" width="533.0">
+         <effect>
+            <DropShadow height="28.33" radius="11.1" width="18.07">
+               <color>
+                  <Color opacity="0.20999999344348907" />
+               </color></DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="394.0" layoutX="608.0" layoutY="258.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 50; -fx-arc-width: 50;" width="383.0">
+         <effect>
+            <DropShadow height="28.33" radius="11.1" width="18.07">
+               <color>
+                  <Color opacity="0.20999999344348907" />
+               </color></DropShadow>
+         </effect>
+      </Rectangle>
+      <Label layoutX="79.0" layoutY="282.0" prefHeight="44.0" prefWidth="481.0" text="Informations personnelles" textFill="#ff7d00" AnchorPane.topAnchor="282.0">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <VBox layoutX="76.0" layoutY="343.0" prefHeight="243.0" prefWidth="484.0" AnchorPane.topAnchor="330.0">
+         <children>
+            <HBox prefHeight="0.0" prefWidth="1026.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="69.0" text="Nom : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="nom" prefHeight="26.0" prefWidth="163.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label prefHeight="23.0" prefWidth="95.0" text="Prénom : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label fx:id="prenom" prefHeight="26.0" prefWidth="194.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="1026.0">
+               <children>
+                  <Label prefHeight="23.0" prefWidth="73.0" text="CNE : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="cne" prefHeight="23.0" prefWidth="177.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label prefHeight="23.0" prefWidth="98.0" text="Civilité : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label fx:id="civilite" prefHeight="26.0" prefWidth="199.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="1026.0">
+               <children>
+                  <Label prefHeight="23.0" prefWidth="177.0" text="Date de naissance : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="date_n" prefHeight="26.0" prefWidth="104.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="177.0" text="Lieu de naissance : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label fx:id="lieu_n" prefHeight="26.0" prefWidth="72.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="1026.0">
+               <children>
+                  <Label prefHeight="23.0" prefWidth="177.0" text="Adresse : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="adresse1" prefHeight="26.0" prefWidth="172.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="23.0" prefWidth="177.0" text="Fonction : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <Label fx:id="fonction" prefHeight="26.0" prefWidth="129.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="633.0" layoutY="355.0" prefHeight="143.0" prefWidth="328.0" AnchorPane.topAnchor="330.0">
+         <children>
+            <HBox prefHeight="0.0" prefWidth="1026.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="196.0" text="Email : " textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label fx:id="email" prefHeight="26.0" prefWidth="300.0" text="xxxx" textFill="#898282">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="32.0" prefWidth="328.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="115.0" text="Télephone :" textFill="#0b0a0a">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="telephone" focusTraversable="false" prefHeight="26.0" prefWidth="218.0" style="-fx-background-color: transparent; -fx-text-fill:#898282" stylesheets="@profil.css" text="0xxxxxxxxx">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="17.0" />
+                     </font>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <cursor>
+                        <Cursor fx:constant="NONE" />
+                     </cursor>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="30.0">
+               <children>
+                  <Label fx:id="err_tel" prefHeight="29.0" prefWidth="478.0" textFill="#ff1a00">
+                     <font>
+                        <Font name="Verdana Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="1026.0">
+               <children>
+                  <Label fx:id="err_mdp" prefHeight="29.0" prefWidth="478.0" textFill="#ff1a00">
+                     <font>
+                        <Font name="Verdana Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="0.0" prefWidth="1026.0" />
+         </children>
+      </VBox>
+      <Label layoutX="633.0" layoutY="288.0" prefHeight="44.0" prefWidth="481.0" text="Contact informations : " textFill="#ff7d00" AnchorPane.topAnchor="282.0">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button fx:id="enregistrer" contentDisplay="CENTER" layoutX="807.0" layoutY="568.0" mnemonicParsing="false" onAction="#modifierCordonnées" prefHeight="32.0" prefWidth="154.0" styleClass="btn_enregistrer" stylesheets="@profil.css" text="Enregistrer" textFill="WHITE" AnchorPane.topAnchor="568.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Verdana" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

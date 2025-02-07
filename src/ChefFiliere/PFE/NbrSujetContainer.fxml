@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="49.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChefFiliere.PFE.NbrSujetContainerController">
+   <children>
+      <Label fx:id="label_nomProf" prefHeight="50.0" prefWidth="341.0" text="Nom Professeur" textFill="#282828">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <TextField fx:id="txtfield_nbrSujet" alignment="CENTER" prefHeight="28.0" prefWidth="53.0" style="-fx-background-color: transparent;" styleClass="txtfield" stylesheets="@pfe.css">
+         <HBox.margin>
+            <Insets left="70.0" top="10.0" />
+         </HBox.margin>
+         <font>
+            <Font name="Berlin Sans FB" size="12.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <Label fx:id="id_prof" opacity="0.0" text="id_prof" />
+   </children>
+</HBox>

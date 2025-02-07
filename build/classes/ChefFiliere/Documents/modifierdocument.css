@@ -1,0 +1,24 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.check-box:selected > .box {
+    /* background color for selected checkbox */
+        -fx-background-color:#1f7ed7;
+}
+.check-box:selected .mark {
+
+-fx-background-color: white;
+
+}
+.check-box > .box {
+    /* background color of unselected checkbox */
+
+    -fx-background-color:white;
+    -fx-border-color:grey;
+-fx-border-radius:3px; 
+    
+}

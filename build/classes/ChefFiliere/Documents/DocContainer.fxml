@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="55.0" prefWidth="953.0" style="-fx-border-color: grey; -fx-border-width: 0 0 2 0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChefFiliere.Documents.DocContainerController">
+   <children>
+      <Label fx:id="titre_doc" prefHeight="17.0" prefWidth="236.0" text="XXXXXXXXXX">
+         <HBox.margin>
+            <Insets top="15.0" />
+         </HBox.margin>
+      </Label>
+      <Label fx:id="nom_doc" prefHeight="17.0" prefWidth="162.0" text="xxxxxxx">
+         <HBox.margin>
+            <Insets top="15.0" />
+         </HBox.margin>
+      </Label>
+      <Label fx:id="proprietaire_doc" prefHeight="17.0" prefWidth="204.0" text="xxxxxxxxxxxxxxxxxxx">
+         <HBox.margin>
+            <Insets top="15.0" />
+         </HBox.margin>
+      </Label>
+      <Label fx:id="datedepot_doc" prefHeight="17.0" prefWidth="122.0" text="XXXX/XX/XX XX:XX">
+         <HBox.margin>
+            <Insets top="15.0" />
+         </HBox.margin>
+      </Label>
+      <Label fx:id="extension_doc" prefHeight="17.0" prefWidth="78.0" text="xxxxx">
+         <HBox.margin>
+            <Insets top="15.0" />
+         </HBox.margin>
+      </Label>
+      <Label fx:id="taille_doc" prefHeight="17.0" prefWidth="53.0" text="xxxxx">
+         <HBox.margin>
+            <Insets top="15.0" />
+         </HBox.margin>
+      </Label>
+      <AnchorPane prefHeight="53.0" prefWidth="88.0">
+         <children>
+            <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="25.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="9.0">
+               <image>
+                  <Image url="@../../Assets/download.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="42.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../Assets/refresh.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="78.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../Assets/delete.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="1.0" layoutY="11.0" mnemonicParsing="false" onAction="#download" opacity="0.0" prefHeight="23.0" prefWidth="24.0" text="download">
+               <font>
+                  <Font size="4.0" />
+               </font>
+            </Button>
+            <Button layoutX="41.0" layoutY="10.0" mnemonicParsing="false" onAction="#modifier" opacity="0.0" prefHeight="23.0" prefWidth="24.0" text="update">
+               <font>
+                  <Font size="4.0" />
+               </font>
+            </Button>
+            <Button layoutX="79.0" layoutY="10.0" mnemonicParsing="false" onAction="#supprimer" opacity="0.0" prefHeight="21.0" prefWidth="20.0" text="delete">
+               <font>
+                  <Font size="4.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

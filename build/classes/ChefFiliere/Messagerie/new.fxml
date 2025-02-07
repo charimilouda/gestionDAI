@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="698.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@new.css" />
+    </stylesheets>
+   <children>
+      <VBox layoutX="7.0" prefHeight="700.0" prefWidth="690.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="34.0" prefWidth="698.0" style="-fx-background-color: #E6EAFC;">
+               <children>
+                  <Label layoutX="-2.0" layoutY="-3.0" prefHeight="38.0" prefWidth="705.0" text="Nouveau Message" textFill="#ff7d00">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.16" />
+                     </effect>
+                  </Label>
+               </children>
+            </Pane>
+            <HBox prefHeight="38.0" prefWidth="698.0">
+               <children>
+                  <Label prefHeight="38.0" prefWidth="167.0" text="De" textFill="#8c8c8c">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sender" prefHeight="87.0" prefWidth="537.0" text="charimilouda@gmail.com">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+            <Separator prefWidth="200.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Separator>
+            <HBox prefHeight="38.0" prefWidth="698.0">
+               <children>
+                  <Label prefHeight="38.0" prefWidth="167.0" text="À" textFill="#8c8c8c">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="receiver" prefHeight="38.0" prefWidth="535.0" promptText="abc@ump.ac.ma" style="-fx-background-color: transparent;">
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Separator>
+            <HBox prefHeight="38.0" prefWidth="698.0">
+               <children>
+                  <Label prefHeight="38.0" prefWidth="167.0" text="Objet" textFill="#8c8c8c">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="object" prefHeight="38.0" prefWidth="535.0" style="-fx-background-color: transparent;">
+                     <padding>
+                        <Insets right="20.0" />
+                     </padding>
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Separator>
+            <TextArea fx:id="content" prefHeight="421.0" prefWidth="698.0" promptText="Votre  message" style="-fx-background-color: transparent; -fx-border-width: 0 0 0 0;" stylesheets="@new.css">
+               <styleClass>
+                  <String fx:value="content" />
+                  <String fx:value="text-area" />
+                  <String fx:value="mainFxmlClass" />
+               </styleClass>
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" top="10.0" />
+               </padding>
+            </TextArea>
+            <Label fx:id="etatEnvoi" alignment="CENTER" prefHeight="18.0" prefWidth="699.0" textFill="#ff7b00">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Label>
+            <Button fx:id="envoyer" mnemonicParsing="false" onAction="#Envoyer" prefHeight="28.0" prefWidth="90.0" styleClass="btn" stylesheets="@new.css" text="Envoyer" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="580.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

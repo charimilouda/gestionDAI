@@ -1,0 +1,17 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.txtfield{
+    -fx-border-color: #c0d5da;
+    -fx-background-color:transparent;
+    
+}
+.txtfield:focused {
+     -fx-border-color:#1f7ed7;
+     -fx-background-color:transparent;
+
+}

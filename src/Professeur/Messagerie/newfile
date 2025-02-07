@@ -1,0 +1,64 @@
+ajjouter un pop up concernant message envoyé ou email introuvable , ou bien  saisie de tous les champs 
+orderby 
+public void add_edit(ActionEvent ae) throws SQLException
+    {
+        datalist=table.getItems();//elle retourne un observable list 
+        int idnote_mat;
+        String url="jdbc:mysql://localhost/dai";
+        Connection conn=DriverManager.getConnection(url, "root", "");
+        PreparedStatement preps=conn.prepareStatement(" SELECT id_note_matiere FROM note_matiere order by id_note_matiere desc limit 1 ");
+        ResultSet rs=preps.executeQuery();
+        if(rs.next())
+        {
+            idnote_mat=rs.getInt("id_note_matiere");
+            idnote_mat++; 
+            System.out.println("idnote_mat"+idnote_mat);//ok on a recupere le id dernier de la table note matiere, je doit parcourir les etudiants
+            for(Etudiants e : datalist)
+            {
+                //ici on a observable list qui contient les lignes des etudiants ; donc je vais dans chaque ligne extraire les informations de l'etudiant et les enregistrer dans la base de données ; je vais enregistrer juste les notes
+                int idE=e.getId_();
+                PreparedStatement ps=conn.prepareStatement("INSERT INTO note_matiere (`id_note_matiere`, `id_matiere`, `id_etudiant`, `ds1`, `ds2`, `ds3`, `assiduite`, `valeur_note_matiere`) VALUES(?,?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE id_matiere=?,id_etudiant=?,ds1=?,ds2=?,ds3=?,assiduite=?,valeur_note_matiere=?");
+                PreparedStatement pstmt=conn.prepareStatement(" SELECT id_matiere FROM MATIERE WHERE id_prof=? ");
+                pstmt.setInt(1, id_user);
+                ResultSet res1=pstmt.executeQuery();
+                while(res1.next())
+                {   ps.setInt(1,idnote_mat );
+                    int id=res1.getInt("id_matiere");
+                    System.out.println("id mat="+id);
+                    ps.setInt(2, id);
+                    ps.setInt(3,idE);
+                    //ds1
+                    String ds1=e.getDs1_();
+                    if(ds1==null){ps.setString(4, "");}else{ps.setString(4, e.getDs1_());}
+                    //ds2
+                    String ds2=e.getDs2_();
+                    if(ds2==null){ps.setString(5, "");}else{ps.setString(5, e.getDs2_());}
+                    //ds3
+                    String ds3=e.getDs3_();
+                    if(ds3==null){ps.setString(6, "");}else{ps.setString(6, e.getDs3_());}
+                    //assiduite
+                    String assiduitee=e.getAssiduite();
+                    if(assiduitee==null){ps.setString(7, "");}else{ps.setString(7, e.getAssiduite()); }
+                    ps.setString(8,"" );//la moyenne doit etre changé
+                    ps.setInt(9,id );
+                    ps.setInt(10, idE);
+                    //ds1
+                    if(ds1==null){ps.setString(11,"" );}else{ps.setString(11,e.getDs1_() );}
+                    //ds2
+                    if(ds2==null){ps.setString(12, "");}else{ps.setString(12, e.getDs2_());}
+                    //ds3
+                    if(ds3==null){ps.setString(13, "");}else{ps.setString(13, e.getDs3_());}
+                    //  assiduite
+                    if(assiduitee==null){ps.setString(14, "");}else{ps.setString(14, e.getAssiduite());}
+                    ps.setString(15,"" );
+                    int nbr=ps.executeUpdate();
+                    System.out.print(nbr+" lignes  ajoutées / modifiées");
+                    idnote_mat++;
+                }
+                idnote_mat++;   
+
+                }
+            }
+        
+        
+    }

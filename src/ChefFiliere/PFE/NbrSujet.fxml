@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="605.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@nbrsujet.css" />
+    </stylesheets>
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="271.0" layoutX="24.0" layoutY="126.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="561.0" />
+      <Label layoutX="96.0" layoutY="61.0" text="Affectation du nombre de sujet" textFill="#276edb">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <HBox layoutX="34.0" layoutY="129.0" prefHeight="37.0" prefWidth="538.0" style="-fx-border-color: #276edb; -fx-border-width: 0 0 2 0;">
+         <children>
+            <Label prefHeight="33.0" prefWidth="355.0" text="Professeur" textFill="ORANGE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Label prefHeight="33.0" prefWidth="208.0" text="Nombre sujet PFE affecte" textFill="ORANGE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="16.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="34.0" layoutY="166.0" prefHeight="229.0" prefWidth="547.0" style="-fx-background: white; -fx-border-color: white;">
+         <content>
+            <VBox fx:id="containerV" prefHeight="211.0" prefWidth="536.0" style="-fx-background-color: transparent;" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="btn_enregister" layoutX="465.0" layoutY="413.0" mnemonicParsing="false" onAction="#enregistrer" prefHeight="27.0" prefWidth="120.0" style="-fx-background-radius: 5;" styleClass="btn_enregistrer" stylesheets="@pfe.css" text="Enregistrer" textFill="WHITE" AnchorPane.topAnchor="413.0">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Button>
+      <Button fx:id="btn_annuler" layoutX="317.0" layoutY="413.0" mnemonicParsing="false" onAction="#annuler" prefHeight="28.0" prefWidth="120.0" style="-fx-border-radius: 5;" styleClass="btn_annuler" stylesheets="@pfe.css" text="Annuler" textFill="#276edb" AnchorPane.topAnchor="413.0">
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

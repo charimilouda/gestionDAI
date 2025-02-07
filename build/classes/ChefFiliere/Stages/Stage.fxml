@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1066.4" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <stylesheets>
+      <URL value="@../PFE/pfe.css" />
+   </stylesheets>
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="667.0" layoutX="45.0" layoutY="55.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-width: 20; -fx-arc-height: 20;" width="1026.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+      <HBox layoutX="69.0" layoutY="154.0" prefHeight="58.0" prefWidth="935.0" style="-fx-border-color: #1f7ed7; -fx-border-width: 0 0 2 0;" AnchorPane.topAnchor="60.0">
+         <children>
+            <Label prefHeight="56.0" prefWidth="282.0" text="Etudiant" textFill="#2e6bdd">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Label prefHeight="56.0" prefWidth="240.0" text="Sujet" textFill="#2e6bdd">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Label prefHeight="56.0" prefWidth="146.0" text="Lieu" textFill="#2e6bdd">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Label prefHeight="56.0" prefWidth="126.0" text="De" textFill="#2e6bdd">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Label prefHeight="58.0" prefWidth="112.0" text="À" textFill="#2e6bdd">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="23.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="66.0" layoutY="172.0" prefHeight="531.0" prefWidth="939.0" style="-fx-background: white; -fx-border-color: white;" AnchorPane.topAnchor="122.0">
+         <content>
+            <VBox fx:id="containerV" prefHeight="513.0" prefWidth="933.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

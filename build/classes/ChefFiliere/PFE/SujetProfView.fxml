@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox prefHeight="66.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChefFiliere.PFE.SujetProfViewController">
+   <children>
+      <Label fx:id="nomProf" prefHeight="62.0" prefWidth="284.0" text="NOM PRENOM PROF">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <ScrollPane prefHeight="78.0" prefWidth="335.0" style="-fx-background: white; -fx-border-color: white;">
+         <content>
+            <Text fx:id="sujets" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" translateY="7.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Text>
+         </content>
+      </ScrollPane>
+   </children>
+</HBox>

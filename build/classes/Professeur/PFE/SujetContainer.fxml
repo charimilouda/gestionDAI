@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox prefHeight="65.0" prefWidth="412.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Professeur.PFE.SujetContainerController">
+   <children>
+      <Text fx:id="txt_sujet" strokeType="OUTSIDE" strokeWidth="0.0" text="Sujet N1" wrappingWidth="91.8359375">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+         <HBox.margin>
+            <Insets left="10.0" top="10.0" />
+         </HBox.margin>
+      </Text>
+      <TextField fx:id="sujet" prefHeight="25.0" prefWidth="282.0" promptText="Entrer votre sujet" styleClass="txtfield" stylesheets="@sujetcontainer.css">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+         <HBox.margin>
+            <Insets top="7.0" />
+         </HBox.margin></TextField>
+   </children>
+</HBox>

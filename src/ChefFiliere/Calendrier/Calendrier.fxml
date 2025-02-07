@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1066.4" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@calendrier.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane prefHeight="705.0" prefWidth="752.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="314.4000000000001">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="687.0" layoutX="5.0" layoutY="9.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-width: 30; -fx-arc-height: 20;" width="695.0" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="52.0" AnchorPane.topAnchor="9.0" />
+            <HBox layoutX="35.0" layoutY="91.0" prefHeight="51.0" prefWidth="633.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="61.0" text="Lun." textFill="#00000069">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="64.0" text="Mar." textFill="#00000069">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="62.0" text="Mer." textFill="#00000069">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="54.0" text="Jeu." textFill="#00000069">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="55.0" text="Ven." textFill="#00000069">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="60.0" text="Sam." textFill="#00000069">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="40.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="55.0" text="Dim." textFill="#00000069">
+                     <font>
+                        <Font name="Berlin Sans FB" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+               </children>
+            </HBox>
+            <FlowPane fx:id="calendrier" hgap="7.0" layoutX="20.0" layoutY="128.0" prefHeight="553.0" prefWidth="660.0" vgap="5.0" />
+            <Button fx:id="apres" layoutX="391.0" layoutY="32.0" mnemonicParsing="false" onAction="#apresMois" style="-fx-background-color: transparent;" text="&gt;" AnchorPane.rightAnchor="320.0" AnchorPane.topAnchor="32.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <Label fx:id="annee" layoutX="227.0" layoutY="40.0" text="ANNEE" textFill="#000000c6" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Label fx:id="mois" layoutX="35.0" layoutY="40.0" prefHeight="27.0" prefWidth="173.0" text="MOIS" textFill="#000000c6" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Button fx:id="avant" layoutX="350.0" layoutY="32.0" mnemonicParsing="false" onAction="#avantMois" style="-fx-background-color: transparent;" text="&lt;" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="32.0">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <Button id="button" fx:id="btn_ajouter" layoutX="505.0" layoutY="40.0" mnemonicParsing="false" onAction="#ajouterEvenement" prefHeight="27.0" prefWidth="163.0" style="-fx-background-radius: 5;" text="Ajouter un évènement" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="14.0" />
+               </font></Button>
+            <ImageView fitHeight="30.0" fitWidth="36.0" layoutX="443.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Assets/refresh-button.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="440.0" layoutY="34.0" mnemonicParsing="false" onAction="#refresh" opacity="0.0" prefHeight="37.0" prefWidth="36.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="700.0" prefWidth="359.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="5.0">
+         <children>
+            <Label fx:id="jour_selectione" layoutX="270.0" layoutY="43.0" text="XX/XX/XXXX" textFill="#000000a6">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font></Label>
+            <ScrollPane layoutX="14.0" layoutY="94.0" prefHeight="600.0" prefWidth="343.0" style="-fx-border-color: transparent; -fx-background-color: transparent; -fx-background: transparent;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="94.0">
+               <content>
+                  <VBox fx:id="container_V" prefHeight="71.0" prefWidth="327.0" />
+               </content>
+            </ScrollPane>
+            <Label layoutX="15.0" layoutY="31.0" prefHeight="33.0" prefWidth="202.0" text="Vos Évènements" textFill="#f59525">
+               <font>
+                  <Font name="Berlin Sans FB" size="30.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

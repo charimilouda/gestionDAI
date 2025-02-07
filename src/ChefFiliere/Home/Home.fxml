@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="container" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1366.0" style="-fx-background-color: #e3e8ec;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefHeight="700.0" prefWidth="300.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="111.0" prefWidth="300.0" style="-fx-background-color: transparent;">
+               <children>
+                  <ImageView fitHeight="89.0" fitWidth="200.0" layoutX="50.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/logo.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Button fx:id="documents" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToDocuments" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Documents">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="calendrier" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToCalendrier" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Calendrier">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="messagerie" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToMessagerie" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Messagerie">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="etudiants" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToEtudiants" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Etudiants">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="professeur" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="332.0" mnemonicParsing="false" onAction="#switchToProfesseur" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Professeurs">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="matieres" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToMatieres" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Matières">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="pfe" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToPFE" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="PFE">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="stages" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToStages" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Stages">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="profil" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#switchToProfil" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Profil">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="deconnexion" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#deconnexion" prefHeight="60.0" prefWidth="300.0" stylesheets="@home.css" text="Déconnexion">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane prefHeight="700.0" prefWidth="1066.4" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
