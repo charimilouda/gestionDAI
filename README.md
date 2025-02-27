@@ -58,3 +58,5 @@ Espace Etudiant :
 - **Accéder aux évènements plnifiés** : L’application affiche une interface qui contient le calendrier du mois de la consultation par défaut, l’étudiant peut également basculer vers les mois suivants ou précédents.
 - **Former les groupes PFE** : L’application affiche une interface qui permet à l’étudiant de sélectionner deux ou trois étudiants pour former leur groupe.
 - **Saisir le stage** : L’application affiche une interface qui permet à l’étudiant de saisir les informations de son stage. 
+Captures d'écran :
+![Connexion](captures/connexion.png)
