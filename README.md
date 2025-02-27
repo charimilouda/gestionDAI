@@ -1,2 +1,35 @@
 # RAPPORT DU PROJET : DAIFY
-![banner](https://github.com/Sbai-Salah/Hayat_ver_1.0/blob/main/ScreensForReadme/banner.PNG)
+# DAIFY -  application de gestion de la filière Développeur d’Applications Informatiques (ESTO)
+
+## 1. Problématique
+Durant chaque année universitaire, les tâches réalisées au sein de notre filière demeurent nombreuses. Le responsable de la filière doit piloter les professeurs en les affectant aux modules enseignés et en réalisant les emplois du temps correspondants. De même, les professeurs doivent gérer les notes des modules de chaque étudiant.
+
+Ce travail était accompli presque manuellement en se basant sur des logiciels bureautiques, ce qui pose plusieurs problèmes :
+- **Désorganisation de l’information** : Les informations sont dispersées sur différents fichiers et plateformes, ce qui rend les étudiants et professeurs confus.
+- **Décentralisation et redondance de l’information** : L’information est stockée dans plusieurs fichiers Excel, ce qui nécessite une mise à jour constante pour garantir l'intégrité des données.
+- **Difficultés de communication** : Le transfert de l’information se fait par divers moyens tels que Gmail ou WhatsApp, rendant la gestion des messages difficile et saturée.
+## 2. Solution proposée : 
+Pour faire face aux imperfections citées dans la section précédente, nous proposons la mise en place d’une application qui va permettre au département informatique et la filière DAI en particulier de digitaliser ses services, de communiquer aisément, d'une manière souple, instantanée, bien organisée, plus productive et fluide, tout en réduisant le temps et les efforts. En outre, l’application va aider le responsable de la filière à automatiser son processus de gestion en ce qui concerne l'organisation des documents et les inscriptions, elle va aussi donner lieu aux profs de programmer des devoirs organisés sur un calendrier et de déposer les cours pour les étudiants.
+
+## 2. Objectifs du Projet
+- Centraliser toutes les informations relatives à l'affectation des modules, la gestion des emplois du temps et des notes dans une seule plateforme.
+- Optimiser la gestion des tâches administratives pour les responsables de la filière et les professeurs.
+- Faciliter la communication entre les étudiants, les professeurs et les responsables.
+- Fournir une interface utilisateur simple et intuitive.
+
+## 3. Technologies Utilisées
+- **NetBeans** : IDE utilisé pour développer l’application en Java.
+- **Java** : Langage de programmation pour le backend.
+- **JavaFX** : Framework pour l'interface utilisateur riche et interactive.
+- **Visual Paradigm** : Outil UML pour la modélisation du système.
+- **Jira Software** : Outil de gestion de projet pour la planification et le suivi des tâches.
+
+## 4. Fonctionnalités
+Espace responsable de la filière : 
+- **Gérer les étudiants ** : L’application affiche une interface qui liste l’ensemble des étudiants. Le responsable peut ajouter, modifier et supprimer.
+- **Gérer les professeurs ** : L’application affiche une interface qui liste l’ensemble des professeurs de la filière. Le responsable peut ajouter, modifier et supprimer.
+- **Affecter les matières ** : L’application affiche une interface qui liste l’ensemble des modules de la filière à travers laquelle il peut assigner des professeurs aux matières.
+- **Déposer des documents :  ** : 
+
+
+
