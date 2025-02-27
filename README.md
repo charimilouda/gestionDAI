@@ -74,7 +74,7 @@ Espace Etudiant :
 - **Espace Professeur** :
 ![espaceprof1](captures/ESPACEprof1.png)
 ![espaceprof2](captures/Professeur2.png)
-![espaceprof3](captures/Professeur3.png)
+![espaceprof3](captures/professeur3.png)
 ![espaceprof4](captures/Professeur4.png)
 ![espaceprof5](captures/Professeur5.png)
 - **Espace Etudiant** : 
