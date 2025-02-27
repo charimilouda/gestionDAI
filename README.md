@@ -26,10 +26,14 @@ Pour faire face aux imperfections citées dans la section précédente, nous pro
 
 ## 4. Fonctionnalités
 Espace responsable de la filière : 
-- **Gérer les étudiants ** : L’application affiche une interface qui liste l’ensemble des étudiants. Le responsable peut ajouter, modifier et supprimer.
-- **Gérer les professeurs ** : L’application affiche une interface qui liste l’ensemble des professeurs de la filière. Le responsable peut ajouter, modifier et supprimer.
-- **Affecter les matières ** : L’application affiche une interface qui liste l’ensemble des modules de la filière à travers laquelle il peut assigner des professeurs aux matières.
-- **Déposer des documents :  ** : 
+- **Gérer les étudiants** : L’application affiche une interface qui liste l’ensemble des étudiants. Le responsable peut ajouter, modifier et supprimer.
+- **Gérer les professeurs** : L’application affiche une interface qui liste l’ensemble des professeurs de la filière. Le responsable peut ajouter, modifier et supprimer.
+- **Affecter les matières** : L’application affiche une interface qui liste l’ensemble des modules de la filière à travers laquelle il peut assigner des professeurs aux matières.
+- **Déposer des documents : ** : L’application affiche une interface qui liste les différents documents y compris les emplois du temps déposés par le responsable. Il peut ajouter, télécharger, modifier et supprimer ses documents.
+- **Communiquer** : L’application affiche la boite de réception du responsable, il peut également envoyer un message.
+- **Planifier un événement** : L’application affiche une interface qui contient le calendrier du mois, le responsable peut également basculer vers les mois suivants ou précédents.  Le responsable peut également planifier, modifier et supprimer un évènement.
+- **Affecter PFE** : L'application affiche une interface qui liste les différents groupes d’étudiants, le responsable doit choisir le nombre de sujets PFE de chaque professeur, et associer aléatoirement les sujets aux groupes.
+- **Consulter les stages** : L’application affiche une interface qui liste les différents stages effectués par les étudiants.
 
 
-
+Espace professeur : 
