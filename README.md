@@ -6,7 +6,7 @@
 3. [Solution proposée](#3-solution-proposée)
 4. [Technologies Utilisées](#4-technologies-utilisées)
 5. [Fonctionnalités](#5-fonctionnalités)
-
+6. [Captures d'écran](#5-captures-décran)
 ---
 ## 1. Présentation de l'équipe 
 ```
@@ -58,8 +58,8 @@ Espace Etudiant :
 - **Accéder aux évènements plnifiés** : L’application affiche une interface qui contient le calendrier du mois de la consultation par défaut, l’étudiant peut également basculer vers les mois suivants ou précédents.
 - **Former les groupes PFE** : L’application affiche une interface qui permet à l’étudiant de sélectionner deux ou trois étudiants pour former leur groupe.
 - **Saisir le stage** : L’application affiche une interface qui permet à l’étudiant de saisir les informations de son stage. 
-Captures d'écran :
-Espace Responsable de filière : 
+## 6. Captures d'écran :
+- **Espace Responsable de filière** : 
 ![Connexion](captures/connexion.png)
 ![1](captures/1.png)
 ![3](captures/3.png)
@@ -71,13 +71,13 @@ Espace Responsable de filière :
 ![25](captures/25.png)
 ![26](captures/26.png)
 ![29](captures/29.png)
-Espace Professeur :
+- **Espace Professeur** :
 ![espaceprof1](captures/ESPACEprof1.png)
 ![espaceprof2](captures/Professeur2.png)
 ![espaceprof3](captures/Professeur3.png)
 ![espaceprof4](captures/Professeur4.png)
 ![espaceprof5](captures/Professeur5.png)
-Espace Etudiant : 
+- **Espace Etudiant** : 
 ![espaceEtudiant1](captures/Etudiant1.png)
 ![espaceEtudiant2](captures/Etudiant2.png)
 ![espaceEtudiant3](captures/Etudiant3.png)
