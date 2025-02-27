@@ -15,7 +15,7 @@ Ce travail était accompli presque manuellement en se basant sur des logiciels b
 - **Désorganisation de l’information** : Les informations sont dispersées sur différents fichiers et plateformes, ce qui rend les étudiants et professeurs confus.
 - **Décentralisation et redondance de l’information** : L’information est stockée dans plusieurs fichiers Excel, ce qui nécessite une mise à jour constante pour garantir l'intégrité des données.
 - **Difficultés de communication** : Le transfert de l’information se fait par divers moyens tels que Gmail ou WhatsApp, rendant la gestion des messages difficile et saturée.
-## 2. Solution proposée : 
+## 2. Solution proposée
 Pour faire face aux imperfections citées dans la section précédente, nous proposons la mise en place d’une application qui va permettre au département informatique et la filière DAI en particulier de digitaliser ses services, de communiquer aisément, d'une manière souple, instantanée, bien organisée, plus productive et fluide, tout en réduisant le temps et les efforts. En outre, l’application va aider le responsable de la filière à automatiser son processus de gestion en ce qui concerne l'organisation des documents et les inscriptions, elle va aussi donner lieu aux profs de programmer des devoirs organisés sur un calendrier et de déposer les cours pour les étudiants.
 
 ## 3. Objectifs du Projet
@@ -24,14 +24,14 @@ Pour faire face aux imperfections citées dans la section précédente, nous pro
 - Faciliter la communication entre les étudiants, les professeurs et les responsables.
 - Fournir une interface utilisateur simple et intuitive.
 
-## 3. Technologies Utilisées
+## 4. Technologies Utilisées
 - **NetBeans** : IDE utilisé pour développer l’application en Java.
 - **Java** : Langage de programmation pour le backend.
 - **JavaFX** : Framework pour l'interface utilisateur riche et interactive.
 - **Visual Paradigm** : Outil UML pour la modélisation du système.
 - **Jira Software** : Outil de gestion de projet pour la planification et le suivi des tâches.
 
-## 4. Fonctionnalités
+## 5. Fonctionnalités
 Espace responsable de la filière : 
 - **Gérer les étudiants** : L’application affiche une interface qui liste l’ensemble des étudiants. Le responsable peut ajouter, modifier et supprimer.
 - **Gérer les professeurs** : L’application affiche une interface qui liste l’ensemble des professeurs de la filière. Le responsable peut ajouter, modifier et supprimer.
