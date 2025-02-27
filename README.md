@@ -9,11 +9,13 @@
 
 ---
 ## 1. Présentation de l'équipe 
-- Projet Fin d'Etudes 
-- Encadrant  :  M. SERGHINI Abdelhafid
-- Réalisé par :  
+```
+Projet Fin d'Etudes 
+Encadrant  :  M. SERGHINI Abdelhafid
+Réalisé par :  
    > CHARI Milouda             
-   > ES-SOUFI Doha 
+   > ES-SOUFI Doha
+```
 ## 2. Problématique
 Durant chaque année universitaire, les tâches réalisées au sein de notre filière demeurent nombreuses. Le responsable de la filière doit piloter les professeurs en les affectant aux modules enseignés et en réalisant les emplois du temps correspondants. De même, les professeurs doivent gérer les notes des modules de chaque étudiant.
 
