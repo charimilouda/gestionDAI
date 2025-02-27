@@ -6,7 +6,7 @@
 3. [Solution proposée](#3-solution-proposée)
 4. [Technologies Utilisées](#4-technologies-utilisées)
 5. [Fonctionnalités](#5-fonctionnalités)
-6. [Captures d'écran](#5-captures-décran)
+6. [Captures d'écran](#6-captures-décran)
 ---
 ## 1. Présentation de l'équipe 
 ```
