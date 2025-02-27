@@ -60,3 +60,7 @@ Espace Etudiant :
 - **Saisir le stage** : L’application affiche une interface qui permet à l’étudiant de saisir les informations de son stage. 
 Captures d'écran :
 ![Connexion](captures/connexion.png)
+![Connexion](captures/1.png)
+![Connexion](captures/3.png)
+![Connexion](captures/8.png)
+![Connexion](captures/17.png)
