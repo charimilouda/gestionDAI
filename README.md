@@ -1,7 +1,7 @@
 # RAPPORT DU PROJET : DAIFY
 # DAIFY -  application de gestion de la filière Développeur d’Applications Informatiques (ESTO)
 ## Sommaire
-1. [Présentation de l'équipe](#problématique)
+1. [Présentation de l'équipe](#présentation-de-lequipe)
 2. [Problématique](#problématique)
 3. [Solution proposée](#solution-proposée)
 4. [Technologies Utilisées](#technologies-utilisées)
