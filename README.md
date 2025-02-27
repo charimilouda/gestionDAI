@@ -11,7 +11,7 @@ Ce travail était accompli presque manuellement en se basant sur des logiciels b
 ## 2. Solution proposée : 
 Pour faire face aux imperfections citées dans la section précédente, nous proposons la mise en place d’une application qui va permettre au département informatique et la filière DAI en particulier de digitaliser ses services, de communiquer aisément, d'une manière souple, instantanée, bien organisée, plus productive et fluide, tout en réduisant le temps et les efforts. En outre, l’application va aider le responsable de la filière à automatiser son processus de gestion en ce qui concerne l'organisation des documents et les inscriptions, elle va aussi donner lieu aux profs de programmer des devoirs organisés sur un calendrier et de déposer les cours pour les étudiants.
 
-## 2. Objectifs du Projet
+## 3. Objectifs du Projet
 - Centraliser toutes les informations relatives à l'affectation des modules, la gestion des emplois du temps et des notes dans une seule plateforme.
 - Optimiser la gestion des tâches administratives pour les responsables de la filière et les professeurs.
 - Faciliter la communication entre les étudiants, les professeurs et les responsables.
