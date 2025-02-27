@@ -43,4 +43,9 @@ Espace professeur :
 - **Planifier un évènement** : L’application affiche une interface qui contient le calendrier du mois, le professeur peut également basculer vers les mois suivants ou précédents.  Le professeur peut également planifier, modifier et supprimer un évènement.
 - Saisir les Sujets PFE : L’application affiche une interface qui permet au professeur de saisir ses sujets PFE selon le nombre affecté par le responsable de la filière.
 Espace Etudiant :
-
+- **Accéder aux documents déposés** :  L’application affiche une interface qui liste les différents documents déposés par les professeurs et le responsable de la filière, il peut également les télécharger.
+- **Accéder aux notes** :  L’application affiche une interface qui liste l’ensemble des matières et notes correspondantes à l’étudiant.
+- **Communiquer** :  L’application affiche la boite de réception de l’étudiant, il peut également envoyer un message.
+- **Accéder aux évènements plnifiés** : L’application affiche une interface qui contient le calendrier du mois de la consultation par défaut, l’étudiant peut également basculer vers les mois suivants ou précédents.
+- **Former les groupes PFE** : L’application affiche une interface qui permet à l’étudiant de sélectionner deux ou trois étudiants pour former leur groupe.
+- **Saisir le stage** : L’application affiche une interface qui permet à l’étudiant de saisir les informations de son stage. 
