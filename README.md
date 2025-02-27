@@ -1,6 +1,13 @@
 # RAPPORT DU PROJET : DAIFY
 # DAIFY -  application de gestion de la filière Développeur d’Applications Informatiques (ESTO)
+## Sommaire
+1. [Problématique](#problématique)
+2. [Solution proposée](#solution-proposée)
+3. [Objectifs du Projet](#objectifs-du-projet)
+4. [Technologies Utilisées](#technologies-utilisées)
+5. [Fonctionnalités](#fonctionnalités)
 
+---
 ## 1. Problématique
 Durant chaque année universitaire, les tâches réalisées au sein de notre filière demeurent nombreuses. Le responsable de la filière doit piloter les professeurs en les affectant aux modules enseignés et en réalisant les emplois du temps correspondants. De même, les professeurs doivent gérer les notes des modules de chaque étudiant.
 
