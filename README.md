@@ -9,9 +9,9 @@
 
 ---
 ## 1. Présentation de l'équipe 
-Projet Fin d'Etudes 
-Encadrant  :  M. SERGHINI Abdelhafid
-Réalisé par :  
+- Projet Fin d'Etudes 
+- Encadrant  :  M. SERGHINI Abdelhafid
+- Réalisé par :  
    > CHARI Milouda             
    > ES-SOUFI Doha 
 ## 2. Problématique
