@@ -29,7 +29,7 @@ Espace responsable de la filière :
 - **Gérer les étudiants** : L’application affiche une interface qui liste l’ensemble des étudiants. Le responsable peut ajouter, modifier et supprimer.
 - **Gérer les professeurs** : L’application affiche une interface qui liste l’ensemble des professeurs de la filière. Le responsable peut ajouter, modifier et supprimer.
 - **Affecter les matières** : L’application affiche une interface qui liste l’ensemble des modules de la filière à travers laquelle il peut assigner des professeurs aux matières.
-- **Déposer des documents : ** : L’application affiche une interface qui liste les différents documents y compris les emplois du temps déposés par le responsable. Il peut ajouter, télécharger, modifier et supprimer ses documents.
+- **Déposer des documents** : L’application affiche une interface qui liste les différents documents y compris les emplois du temps déposés par le responsable. Il peut ajouter, télécharger, modifier et supprimer ses documents.
 - **Communiquer** : L’application affiche la boite de réception du responsable, il peut également envoyer un message.
 - **Planifier un événement** : L’application affiche une interface qui contient le calendrier du mois, le responsable peut également basculer vers les mois suivants ou précédents.  Le responsable peut également planifier, modifier et supprimer un évènement.
 - **Affecter PFE** : L'application affiche une interface qui liste les différents groupes d’étudiants, le responsable doit choisir le nombre de sujets PFE de chaque professeur, et associer aléatoirement les sujets aux groupes.
@@ -37,3 +37,10 @@ Espace responsable de la filière :
 
 
 Espace professeur : 
+- **Gérer les notes** : L’application affiche une interface qui liste l’ensemble des étudiants de la filière à travers laquelle il peut saisir les notes des examens effectués, l’assiduité et calculer la moyenne de chaque étudiant.
+- **Déposer les documents** : L’application affiche une interface qui liste les différents documents y compris les emplois du temps déposés par le responsable. Il peut ajouter, télécharger, modifier et supprimer ses documents.
+- **Communiquer** : L’application affiche la boite de réception du professeur, il peut également envoyer un message.
+- **Planifier un évènement** : L’application affiche une interface qui contient le calendrier du mois, le professeur peut également basculer vers les mois suivants ou précédents.  Le professeur peut également planifier, modifier et supprimer un évènement.
+- Saisir les Sujets PFE : L’application affiche une interface qui permet au professeur de saisir ses sujets PFE selon le nombre affecté par le responsable de la filière.
+Espace Etudiant :
+
