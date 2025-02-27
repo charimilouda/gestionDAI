@@ -2,27 +2,21 @@
 # DAIFY -  application de gestion de la filière Développeur d’Applications Informatiques (ESTO)
 ## Sommaire
 1. [Problématique](#problématique)
-2. [Solution proposée](#solution-proposée)
-3. [Objectifs du Projet](#objectifs-du-projet)
+2. [Problématique](#problématique)
+3. [Solution proposée](#solution-proposée)
 4. [Technologies Utilisées](#technologies-utilisées)
 5. [Fonctionnalités](#fonctionnalités)
 
 ---
-## 1. Problématique
+## 2. Problématique
 Durant chaque année universitaire, les tâches réalisées au sein de notre filière demeurent nombreuses. Le responsable de la filière doit piloter les professeurs en les affectant aux modules enseignés et en réalisant les emplois du temps correspondants. De même, les professeurs doivent gérer les notes des modules de chaque étudiant.
 
 Ce travail était accompli presque manuellement en se basant sur des logiciels bureautiques, ce qui pose plusieurs problèmes :
 - **Désorganisation de l’information** : Les informations sont dispersées sur différents fichiers et plateformes, ce qui rend les étudiants et professeurs confus.
 - **Décentralisation et redondance de l’information** : L’information est stockée dans plusieurs fichiers Excel, ce qui nécessite une mise à jour constante pour garantir l'intégrité des données.
 - **Difficultés de communication** : Le transfert de l’information se fait par divers moyens tels que Gmail ou WhatsApp, rendant la gestion des messages difficile et saturée.
-## 2. Solution proposée
+## 3. Solution proposée
 Pour faire face aux imperfections citées dans la section précédente, nous proposons la mise en place d’une application qui va permettre au département informatique et la filière DAI en particulier de digitaliser ses services, de communiquer aisément, d'une manière souple, instantanée, bien organisée, plus productive et fluide, tout en réduisant le temps et les efforts. En outre, l’application va aider le responsable de la filière à automatiser son processus de gestion en ce qui concerne l'organisation des documents et les inscriptions, elle va aussi donner lieu aux profs de programmer des devoirs organisés sur un calendrier et de déposer les cours pour les étudiants.
-
-## 3. Objectifs du Projet
-- Centraliser toutes les informations relatives à l'affectation des modules, la gestion des emplois du temps et des notes dans une seule plateforme.
-- Optimiser la gestion des tâches administratives pour les responsables de la filière et les professeurs.
-- Faciliter la communication entre les étudiants, les professeurs et les responsables.
-- Fournir une interface utilisateur simple et intuitive.
 
 ## 4. Technologies Utilisées
 - **NetBeans** : IDE utilisé pour développer l’application en Java.
