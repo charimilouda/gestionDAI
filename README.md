@@ -32,6 +32,7 @@ Pour faire face aux imperfections citées dans la section précédente, nous pro
 - **JavaFX** : Framework pour l'interface utilisateur riche et interactive.
 - **Visual Paradigm** : Outil UML pour la modélisation du système.
 - **Jira Software** : Outil de gestion de projet pour la planification et le suivi des tâches.
+- - **MySQL** : Système de gestion de base de données relationnelle.
 
 ## 5. Fonctionnalités
 Espace responsable de la filière : 
