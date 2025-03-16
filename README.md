@@ -52,6 +52,8 @@ Espace professeur :
 - **Communiquer** : L’application affiche la boite de réception du professeur, il peut également envoyer un message.
 - **Planifier un évènement** : L’application affiche une interface qui contient le calendrier du mois, le professeur peut également basculer vers les mois suivants ou précédents.  Le professeur peut également planifier, modifier et supprimer un évènement.
 - **Saisir les Sujets PFE** : L’application affiche une interface qui permet au professeur de saisir ses sujets PFE selon le nombre affecté par le responsable de la filière.
+
+  
 Espace Etudiant :
 - **Accéder aux documents déposés** :  L’application affiche une interface qui liste les différents documents déposés par les professeurs et le responsable de la filière, il peut également les télécharger.
 - **Accéder aux notes** :  L’application affiche une interface qui liste l’ensemble des matières et notes correspondantes à l’étudiant.
